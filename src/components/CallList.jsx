@@ -43,7 +43,7 @@ export default function CallList({ calls, onSelect, onArchive,
             {isArchivedTab ? 'Unarchive All Calls' : 'Archive All Calls'}
           </Button>
         </Box>
-      
+
 
         {/* Grouped Calls */}
         {Object.entries(groupedCalls).map(([date, callsForDate]) => (
