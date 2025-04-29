@@ -1,7 +1,9 @@
 import ActivityFeed from './pages/ActivityFeed.jsx';
 
 function App() {
-      return <h1 style={{ color: "green" }}>Hello World</h1>;
+       <div style={{ backgroundColor: "lightgreen", padding: 20 }}>
+            <h1>Hello from Production</h1>
+          </div>
 //   return <ActivityFeed />;
 }
 
